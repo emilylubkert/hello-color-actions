@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: aws-actions/configure-aws-credentials@v1
         with:
-          role-to-assume: arn:aws:iam::123456789100:role/my-github-actions-role
+          role-to-assume: arn:aws:iam::665654832036:role/GitHub-actions
           aws-region: us-east-2
       - uses: actions/checkout@master
       - uses: jakejarvis/s3-sync-action@master
